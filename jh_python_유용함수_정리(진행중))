@@ -36,4 +36,10 @@ arr_2x3x2.shape  # (2, 3, 2)
   url_query = quote(stock_name)
   for pg_rng in range(pages):
     url = 'https://search.naver.com/search.naver?where=news&sm=tab_jum&query=' + url_query + str('&start=' + str(pg_rng * 10 + 1))
+    
+- 여러개의 리스트를 한개의 리스트로 만들기
+Ex_
+emotion = ['기쁨', '불안', '안정', '행복', '슬픔']
+sum_list = [stock_list, markets]
+sum_list = sum(sum_list, []) ***
 
