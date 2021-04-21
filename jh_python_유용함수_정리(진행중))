@@ -43,3 +43,5 @@ emotion = ['기쁨', '불안', '안정', '행복', '슬픔']
 sum_list = [stock_list, markets]
 sum_list = sum(sum_list, []) ***
 
+- 데이터프레임에서 여러개의 로우를 선택할 때, 순서대로가 아닌 원하는 번호를 조합하여 값을 확인하고자 한다면 np_r(ow) 함수를 활용 
+q_df_invest_info_1.iloc[np.r_[200:201, len(q_df_invest_info_1)-1:len(q_df_invest_info_1)],:]
