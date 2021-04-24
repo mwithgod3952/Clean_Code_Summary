@@ -45,3 +45,9 @@ sum_list = sum(sum_list, []) ***
 
 - 데이터프레임에서 여러개의 로우를 선택할 때, 순서대로가 아닌 원하는 번호를 조합하여 해당 행들을 확인하고자 한다면 np_r(ow) 함수를 활용 
 q_df_invest_info_1.iloc[np.r_[200:201, len(q_df_invest_info_1)-1:len(q_df_invest_info_1)],:]
+
+pytred를 활용한 구글 트렌트 키워드 검색
+- pytrends = TrendReq(hl='en-US', tz=360)
+- pytrends.build_payload(kw_list=['trend'], timeframe='2000-01-01 2021-04-24', geo='KR') 
+- df_rquest = pytrends.related_queries()
+
