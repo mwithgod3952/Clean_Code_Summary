@@ -51,3 +51,7 @@ pytred를 활용한 구글 트렌트 키워드 검색
 - pytrends.build_payload(kw_list=['trend'], timeframe='2000-01-01 2021-04-24', geo='KR') 
 - df_rquest = pytrends.related_queries()
 
+- 객체지향 >> Class Function에 대한 정리
+딥러닝 중 실질적 활용 예시
+    * F1 Score 및 Validation 각 epoch 당 적용
+
