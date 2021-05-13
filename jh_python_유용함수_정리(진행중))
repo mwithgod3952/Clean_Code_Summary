@@ -55,3 +55,11 @@ pytred를 활용한 구글 트렌트 키워드 검색
 딥러닝 중 실질적 활용 예시
     * F1 Score 및 Validation 각 epoch 당 적용
 
+- 자주 쓰는 math functino 정리
+        1. ** 또는, pow : n제곱
+        2. math.factorial
+                또는, 사용자 정의함수를 통해 factirial 만들기 (재귀호출을 활용한 사용자정의 함수 구현)
+                def factorial(n):
+                  if n == 1:                      # n이 1일 때
+                    return 1                      # 1을 반환하고 재귀호출을 끝냄
+                  return n * factorial(n - 1)     # n과 factorial 함수에 n - 1을 넣어서 반환된 값을 곱함
