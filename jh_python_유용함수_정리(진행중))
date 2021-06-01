@@ -54,6 +54,9 @@ pytred를 활용한 구글 트렌트 키워드 검색
 - 객체지향 >> Class Function에 대한 정리
 딥러닝 중 실질적 활용 예시
     * F1 Score 및 Validation 각 epoch 당 적용
+    
+        ** Class Function에 예시 Detail
+          :
 
 - 자주 쓰는 math functino 정리
         1. ** 또는, pow : n제곱
