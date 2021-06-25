@@ -69,3 +69,6 @@ pytred를 활용한 구글 트렌트 키워드 검색
 
 - range를 리트르로 변환
   list( range() )
+  
+ - 리스트 내 None 개수 반환 
+  any(x is None for x in e)
